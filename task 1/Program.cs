@@ -12,7 +12,6 @@ namespace homework4_classes
         static void Main(string[] args)
         {
             Person[] Person1 = new Person[3];
-
             for (int i = 0; i < 3; i++)
             {
                 Console.Write("Name: ");
@@ -22,11 +21,7 @@ namespace homework4_classes
                 Console.Write("Name: ");
                 string name2 = Convert.ToString(Console.ReadLine());
 
-
-                Person1[i] = new Person(name,name1,name2);
-
-              
-                
+                Person1[i] = new Person(name,name1,name2);                
             }
             Console.WriteLine(Person1[0]);
             Console.ReadLine();
