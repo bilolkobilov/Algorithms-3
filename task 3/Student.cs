@@ -15,7 +15,7 @@ namespace homework4_classes3
         }
         public void ShowAge()
         {
-            Console.WriteLine("My age is 19 years old");
+            Console.WriteLine("My age is {0} years old", age);
         }
       }
 }

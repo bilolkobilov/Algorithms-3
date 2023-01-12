@@ -14,13 +14,14 @@ namespace homework4_classes3
             person.Greet();
                        
             Student student = new Student();
-            student.SetAge();
+            student.SetAge(19);
             student.Greet();
             student.ShowAge();
             student.Study();
 
             Professor professor = new Professor();
-            professor.SetAge();
+            professor.SetAge(25);
+            professor.ShowAge();
             professor.Greet();
             professor.Explain();
 

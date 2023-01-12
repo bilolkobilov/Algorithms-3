@@ -8,13 +8,14 @@ namespace homework4_classes3
 {
      class Person
      {
+        protected int age;
         public void Greet()
         {
             Console.WriteLine("Hello");
         }
-        public virtual void SetAge()
+        public  void SetAge(int x)
         {
-            Console.WriteLine(19);
+            age = x;
         }
      }
 }

@@ -12,9 +12,9 @@ namespace homework4_classes3
         {
             Console.WriteLine("I'm explaining");
         }     
-        public override  void SetAge()
+        public void ShowAge()
         {
-            Console.WriteLine(25);
+            Console.WriteLine("I'm a {0} years old ", age);
         }
      }
 }
